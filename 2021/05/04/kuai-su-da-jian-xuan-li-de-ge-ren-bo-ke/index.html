@@ -449,7 +449,7 @@
                 
                 <div class="post-date info-break-policy">
                     <i class="far fa-calendar-check fa-fw"></i>更新日期:&nbsp;&nbsp;
-                    2021-05-05
+                    2021-05-06
                 </div>
                 
 
@@ -485,9 +485,9 @@
 <h2 id="1-2-安装Git"><a href="#1-2-安装Git" class="headerlink" title="1.2. 安装Git"></a>1.2. 安装Git</h2><p>为了把本地的文件上传到github上面去，我们需要用到分布式版本控制工具————Git<a href="https://git-scm.com/download/win" target="_blank" rel="noopener">下载地址</a>。<br>安装选项全部默认，只不过最后一步添加路径时选择Use Git from the Windows Command Prompt，这样我们就可以直接在命令提示符里打开Git了。</p>
 <p>安装完成后在命令提示符中输入git –version验证是否安装成功。  </p>
 <h2 id="1-3-注册Github账号并创建Git-Pages仓库"><a href="#1-3-注册Github账号并创建Git-Pages仓库" class="headerlink" title="1.3. 注册Github账号并创建Git Pages仓库"></a>1.3. 注册Github账号并创建Git Pages仓库</h2><p>GitHub是通过Git进行版本控制的软件源代码托管服务平台，要成为一名合格的程序员（媛），Github是必备知识之一_(:з)∠)_。<br><a href="https://jingyan.baidu.com/article/4e5b3e192200e291911e2468.html" target="_blank" rel="noopener">Github注册可参考此处</a>。<br>注册完毕后我们打开<a href="https://github.com/" target="_blank" rel="noopener">https://github.com</a>,新建一个项目，如下所示：  </p>
-<p><img src="/source/_posts/hub.png" alt>  </p>
+<p><img src="%E5%BF%AB%E9%80%9F%E6%90%AD%E5%BB%BA%E7%BB%9A%E4%B8%BD%E7%9A%84%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/hub.png" alt>  </p>
 <p>然后如下图所示，输入自己的项目名字，后面一定要加.github.io后缀，README初始化也要勾上。名称一定要和你的github名字完全一样，比如你github名字叫abc，那么仓库名字一定要是abc.github.io，这样你的博客的网址就会是<a href="https://abc.github.io。如果名字不一样的话其实也可以创建，但是创建出来的博客网址会附带https://github.com/xxx/的前缀，并且hexo部署后显示有可能不正常。" target="_blank" rel="noopener">https://abc.github.io。如果名字不一样的话其实也可以创建，但是创建出来的博客网址会附带https://github.com/xxx/的前缀，并且hexo部署后显示有可能不正常。</a>  </p>
-<p><img src="/source/_posts/01.png" alt>  </p>
+<p><img src="%E5%BF%AB%E9%80%9F%E6%90%AD%E5%BB%BA%E7%BB%9A%E4%B8%BD%E7%9A%84%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/01.png" alt>  </p>
 <p>我已经创建过了这个仓库所以这里报了重名的错误。</p>
 <p>项目建成后，点击Settings，向下拉到最后有个GitHub Pages，点击Choose a theme选择一个主题。然后等一会儿，再回到GitHub Pages，点击那个链接，就会出现自己的网页啦。</p>
 <h2 id="1-4-安装Hexo"><a href="#1-4-安装Hexo" class="headerlink" title="1.4. 安装Hexo"></a>1.4. 安装Hexo</h2><p>在合适的地方新建一个文件夹，用来存放自己的博客文件，比如可以放在D:\study\program\blog目录下。</p>
@@ -518,7 +518,7 @@ deploy:
   branch: master</code></pre><p>到这里为止，所有必须的环境就全部搭建完了。</p>
 <h3 id="二、Hexo源代码介绍"><a href="#二、Hexo源代码介绍" class="headerlink" title="二、Hexo源代码介绍"></a>二、Hexo源代码介绍</h3><p>这里以我的博客代码为例<a href="https://fu-99999.github.io">https://fu-99999.github.io</a></p>
 <h4 id="2-1-根目录"><a href="#2-1-根目录" class="headerlink" title="2.1.根目录"></a>2.1.根目录</h4><p>下图为根目录文件结构:</p>
-<p><img src="/medias/posts/02.png" alt></p>
+<p><img src="%E5%BF%AB%E9%80%9F%E6%90%AD%E5%BB%BA%E7%BB%9A%E4%B8%BD%E7%9A%84%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/02.png" alt></p>
 <ul>
 <li><code>.deploy_git</code>为运行<code>hexo d</code>命令后生成的文件目录；</li>
 <li><code>node_modules</code>是npm安装包的存放目录；</li>
@@ -532,17 +532,17 @@ deploy:
 <li><code>package.json</code>和<code>package-lock.json</code>是使用npm安装包时生成的文件，你可以在里面看到所安装包的版本情况。</li>
 </ul>
 <h4 id="2-2-主题目录-themes-matery"><a href="#2-2-主题目录-themes-matery" class="headerlink" title="2.2.主题目录/themes/matery"></a>2.2.主题目录/themes/matery</h4><p>下图为主题目录文件结构：</p>
-<p><img src="/medias/posts/03.png" alt></p>
+<p><img src="%E5%BF%AB%E9%80%9F%E6%90%AD%E5%BB%BA%E7%BB%9A%E4%B8%BD%E7%9A%84%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/03.png" alt></p>
 <ul>
 <li><code>languages</code>应该是做映射用的，因为有些地方对变量取名有要求，有些变量名中不能有空格(比如url)，所以这里做了一些映射：<code>recommendedPosts: Recommended Posts</code>，还有些是单复数转换如：<code>posts: Posts</code>；</li>
 <li><code>layout</code>存放的是ejs文件，主要用来生成public文件夹中的html文件，作用是渲染页面，有兴趣的可以查一下NodeJS的express和ejs；</li>
 <li><code>source</code>存放图片等资源，这里的资源一般与页面有关。</li>
 <li><code>_config.yml</code>非常重要！主要用来控制博客的外观。</li>
 </ul>
-<h2 id="博客截图"><a href="#博客截图" class="headerlink" title="博客截图"></a>博客截图</h2><h3 id="首页"><a href="#首页" class="headerlink" title="首页"></a>首页</h3><p><img src="/medias/posts/04.png" alt>  </p>
-<p><img src="/medias/posts/05.png" alt> </p>
-<h3 id="留言板"><a href="#留言板" class="headerlink" title="留言板"></a>留言板</h3><p><img src="/medias/posts/06.png" alt>  </p>
-<h3 id="相册"><a href="#相册" class="headerlink" title="相册"></a>相册</h3><p><img src="/medias/posts/07.png" alt> </p>
+<h2 id="博客截图"><a href="#博客截图" class="headerlink" title="博客截图"></a>博客截图</h2><h3 id="首页"><a href="#首页" class="headerlink" title="首页"></a>首页</h3><p><img src="%E5%BF%AB%E9%80%9F%E6%90%AD%E5%BB%BA%E7%BB%9A%E4%B8%BD%E7%9A%84%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/04.png" alt>  </p>
+<p><img src="%E5%BF%AB%E9%80%9F%E6%90%AD%E5%BB%BA%E7%BB%9A%E4%B8%BD%E7%9A%84%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/05.png" alt> </p>
+<h3 id="留言板"><a href="#留言板" class="headerlink" title="留言板"></a>留言板</h3><p><img src="%E5%BF%AB%E9%80%9F%E6%90%AD%E5%BB%BA%E7%BB%9A%E4%B8%BD%E7%9A%84%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/06.png" alt>  </p>
+<h3 id="相册"><a href="#相册" class="headerlink" title="相册"></a>相册</h3><p><img src="%E5%BF%AB%E9%80%9F%E6%90%AD%E5%BB%BA%E7%BB%9A%E4%B8%BD%E7%9A%84%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/07.png" alt> </p>
 
             </div>
             <hr/>
@@ -1042,21 +1042,22 @@ deploy:
             <div class="article-badge left-badge text-color">
                 <i class="fas fa-chevron-left"></i>&nbsp;上一篇</div>
             <div class="card">
-                <a href="/2021/05/05/hexo-gei-bo-ke-tian-jia-kan-ban-niang-live2d/">
+                <a href="/2021/05/05/mian-fei-hao-yong-de-jia-su-qi/">
                     <div class="card-image">
                         
                         
-                        <img src="/medias/featureimages/19.jpg" class="responsive-img" alt="HEXO给博客添加看板娘(Live2D)">
+                        <img src="/medias/featureimages/16.jpg" class="responsive-img" alt="好用的加速器">
                         
-                        <span class="card-title">HEXO给博客添加看板娘(Live2D)</span>
+                        <span class="card-title">好用的加速器</span>
                     </div>
                 </a>
                 <div class="card-content article-content">
                     <div class="summary block-with-text">
                         
-                            HEXO给博客添加看板娘(Live2D)最近在很多博客左下角或者右下角有看到小人(看板娘)，折腾了一番搜到的都没有达到预期的效果，并且大多数教程都是基于Next来做的，本人使用的主题是matery，跟Next有细微的区别。  
-效果展示
-教
+                            佛跳墙VPN推荐一款自己在用的免费加速器，解决上github很慢，还能上youtobe等网站。支持PC端和移动端。
+官网截图
+下载地址：https://www.fendouxiaqu.com/cn/
+
                         
                     </div>
                     <div class="publish-info">
@@ -1067,8 +1068,8 @@ deploy:
                             
                             <i class="fas fa-bookmark fa-fw icon-category"></i>
                             
-                            <a href="/categories/blog/" class="post-category">
-                                    blog
+                            <a href="/categories/工具/" class="post-category">
+                                    工具
                                 </a>
                             
                             
@@ -1078,8 +1079,8 @@ deploy:
                 
                 <div class="card-action article-tags">
                     
-                    <a href="/tags/blog/">
-                        <span class="chip bg-color">blog</span>
+                    <a href="/tags/工具/">
+                        <span class="chip bg-color">工具</span>
                     </a>
                     
                 </div>
