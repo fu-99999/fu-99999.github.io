@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://fu-99999.github.io/"/>
-  <updated>2021-05-06T06:12:41.276Z</updated>
+  <updated>2021-05-21T06:05:17.487Z</updated>
   <id>https://fu-99999.github.io/</id>
   
   <author>
@@ -15,6 +15,32 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>TBC前夕插件</title>
+    <link href="https://fu-99999.github.io/2021/05/21/tbc-qian-xi-cha-jian-pei-zhi/"/>
+    <id>https://fu-99999.github.io/2021/05/21/tbc-qian-xi-cha-jian-pei-zhi/</id>
+    <published>2021-05-21T05:45:07.000Z</published>
+    <updated>2021-05-21T06:05:17.487Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h1 id=&quot;WOW-TBC前夕-插件配置-基于ElvUI-KlixUI&quot;&gt;&lt;a href=&quot;#WOW-TBC前夕-插件配置-基于ElvUI-KlixUI&quot; class=&quot;headerlink&quot; title=&quot;WOW TBC前夕
+        
+      
+    
+    </summary>
+    
+      <category term="工具" scheme="https://fu-99999.github.io/categories/%E5%B7%A5%E5%85%B7/"/>
+    
+    
+      <category term="工具" scheme="https://fu-99999.github.io/tags/%E5%B7%A5%E5%85%B7/"/>
+    
+  </entry>
   
   <entry>
     <title>LOL换肤工具</title>
@@ -43,6 +69,32 @@
   </entry>
   
   <entry>
+    <title>HEXO给博客添加看板娘(Live2D)</title>
+    <link href="https://fu-99999.github.io/2021/05/05/hexo-gei-bo-ke-tian-jia-kan-ban-niang-live2d/"/>
+    <id>https://fu-99999.github.io/2021/05/05/hexo-gei-bo-ke-tian-jia-kan-ban-niang-live2d/</id>
+    <published>2021-05-05T05:20:07.000Z</published>
+    <updated>2021-05-21T05:40:29.677Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h1 id=&quot;HEXO给博客添加看板娘-Live2D&quot;&gt;&lt;a href=&quot;#HEXO给博客添加看板娘-Live2D&quot; class=&quot;headerlink&quot;
+        
+      
+    
+    </summary>
+    
+      <category term="blog" scheme="https://fu-99999.github.io/categories/blog/"/>
+    
+    
+      <category term="blog" scheme="https://fu-99999.github.io/tags/blog/"/>
+    
+  </entry>
+  
+  <entry>
     <title>好用的加速器</title>
     <link href="https://fu-99999.github.io/2021/05/05/mian-fei-hao-yong-de-jia-su-qi/"/>
     <id>https://fu-99999.github.io/2021/05/05/mian-fei-hao-yong-de-jia-su-qi/</id>
@@ -65,32 +117,6 @@
     
     
       <category term="工具" scheme="https://fu-99999.github.io/tags/%E5%B7%A5%E5%85%B7/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>HEXO给博客添加看板娘(Live2D)</title>
-    <link href="https://fu-99999.github.io/2021/05/05/hexo-gei-bo-ke-tian-jia-kan-ban-niang-live2d/"/>
-    <id>https://fu-99999.github.io/2021/05/05/hexo-gei-bo-ke-tian-jia-kan-ban-niang-live2d/</id>
-    <published>2021-05-05T05:20:07.000Z</published>
-    <updated>2021-05-06T06:09:36.636Z</updated>
-    
-    <summary type="html">
-    
-      
-      
-        
-        
-          &lt;h1 id=&quot;HEXO给博客添加看板娘-Live2D&quot;&gt;&lt;a href=&quot;#HEXO给博客添加看板娘-Live2D&quot; class=&quot;headerlink&quot;
-        
-      
-    
-    </summary>
-    
-      <category term="blog" scheme="https://fu-99999.github.io/categories/blog/"/>
-    
-    
-      <category term="blog" scheme="https://fu-99999.github.io/tags/blog/"/>
     
   </entry>
   
@@ -125,7 +151,7 @@
     <link href="https://fu-99999.github.io/2021/05/01/2019-03-21-dijkstra-algorithms/"/>
     <id>https://fu-99999.github.io/2021/05/01/2019-03-21-dijkstra-algorithms/</id>
     <published>2021-05-01T10:43:00.000Z</published>
-    <updated>2021-05-05T03:32:01.469Z</updated>
+    <updated>2021-05-21T05:40:30.627Z</updated>
     
     <summary type="html">
     

@@ -4,11 +4,11 @@
   
     
     <entry>
-      <title>LOL换肤工具</title>
-      <link href="/2021/05/05/lian-meng-hao-yong-de-huan-fu-gong-ju-ni-dong-de/"/>
-      <url>/2021/05/05/lian-meng-hao-yong-de-huan-fu-gong-ju-ni-dong-de/</url>
+      <title>TBC前夕插件</title>
+      <link href="/2021/05/21/tbc-qian-xi-cha-jian-pei-zhi/"/>
+      <url>/2021/05/21/tbc-qian-xi-cha-jian-pei-zhi/</url>
       
-        <content type="html"><![CDATA[<h1 id="League-Skin"><a href="#League-Skin" class="headerlink" title="League Skin"></a>League Skin</h1><h3 id="如何使用"><a href="#如何使用" class="headerlink" title="如何使用"></a>如何使用</h3><p><img src="https://img.05sun.com/up/2002/202002110900584812.jpg" alt>  </p><ul><li>步骤1：下载Mod Skin LoL。</li><li>步骤2：打开您的Game League of Legends。</li><li>步骤3：打开“ LoL皮肤程序”。选择您的冠军，然后单击活动您喜欢的皮肤。  </li></ul><p>14/10自定义皮肤和地图皮肤修复….-<br>程序自动关闭或无法打开：尝试从C：\ Program Files（x86）\ Digital Communications \ SAntivirus检查或卸载恶意软件SAntivirus *发生错误（avast，mcfee …）每次更新新补丁时，都会使用我的软件。几天后，该防病毒软件将允许皮肤变质，因此，如果您无法打开或无法正常工作，请不要担心太多，请暂时关闭防病毒软件。如何关闭防病毒软件:<a href="https://www.youtube.com/watch?v=GpvSP5Fca8Q" target="_blank" rel="noopener">https://www.youtube.com/watch?v=GpvSP5Fca8Q</a><br>如果您遇到问题，可以与我们联系以寻求帮助：<a href="facebook.com/LOLProSkin">facebook.com/LOLProSkin</a>  </p><h3 id="下载地址："><a href="#下载地址：" class="headerlink" title="下载地址："></a>下载地址：</h3><p><a href="http://leagueskin.net/p/download-mod-skin-2020-chn" target="_blank" rel="noopener">http://leagueskin.net/p/download-mod-skin-2020-chn</a>  </p><p>有一定几率封号，请谨慎使用。</p>]]></content>
+        <content type="html"><![CDATA[<h1 id="WOW-TBC前夕-插件配置-基于ElvUI-KlixUI"><a href="#WOW-TBC前夕-插件配置-基于ElvUI-KlixUI" class="headerlink" title="WOW TBC前夕 插件配置(基于ElvUI_KlixUI)"></a>WOW TBC前夕 插件配置(基于ElvUI_KlixUI)</h1><p>基于NGA<a href="https://www.fendouxiaqu.com/cn/" target="_blank" rel="noopener">大佬</a>的配置更新.</p><p>本次更新只更新了核心组件</p><ul><li>主题框架 ElvUI_KlixUI_TBC_Classic</li><li>万能提醒 WeakAuras-3.4.1  </li></ul><img src="/2021/05/21/tbc-qian-xi-cha-jian-pei-zhi/1.jpg" title="This is an 1.jpg image">  <img src="/2021/05/21/tbc-qian-xi-cha-jian-pei-zhi/2.jpg" title="This is an 2.jpg image">  <p>其他配置参考说明:</p><ul><li>点击网盘下载整包</li><li>链接：<a href="https://pan.baidu.com/s/1B2Xxa3Z9bkIzau_r6BnvUg" target="_blank" rel="noopener">baidu网盘</a></li><li>提取：nlzp</li><li>删除_classic_里的文件夹[Cache][Interface]和[WTF]</li><li>[WTF]里为你的账号信息，切记再删除前一定要记住或者复制到记事本上</li><li>如果已经删除且没有办法恢复和记录的情况下，重新进入一次游戏，会自动生成</li><li>将下载好的[Interface][WTF]和[Fonts]扔进_classic_里</li><li>把WTF\Account\账号ID修改成第一步中你所记录的账号</li><li>如果输入有偏差会无法进入游戏</li><li>然后依次进入文件夹修改服务器名称以及角色名称</li><li>如果有多个角色，需要复制文件夹对不同的角色分别命名</li><li>登陆游戏后关闭所有的框体，能跳过就跳过，能关闭就关闭</li><li>ESC-ElvUI-Profiles-复制自-限量版艾斯&lt;如果没有查看现有配置中 限量版艾斯&gt;</li><li>仇恨统计右键配置文件 选择限量版艾斯</li><li>DPS统计-设置-配置-限量版艾斯</li><li>修改完聊天框输入/rl</li><li>此命令会重新加载界面 </li></ul><p>进入游戏之后请自行完成以下步骤:</p><ul><li>报错提示关闭<br>ESC-界面 - 插件 - AdvancedInterfaceOptions - 显示lua 关闭</li><li>使用VuhDo框架<br>关闭ElvUI自带的团队框架<br>单位框架 - 群体单位 - 25人团队以及40人团队</li><li>血条显示不正确<br>关闭ElvUI姓名版</li><li>两个背包和银行仓库<br>禁用ElvUI背包</li><li>左右上角同时有BUFF<br>禁用ElvUI增益简易或者禁用ElkBuffBars条形BUFF插件</li><li>两个战斗数字<br>关闭魔兽默认伤害数字</li><li>5回WA有黑色方框<br>取消KlixUi-皮肤美化-DBM&amp;WA  </li></ul><p>Elvui基础操作：<br><a href="https://www.bilibili.com/video/BV1HC4y1b7fV/" target="_blank" rel="noopener">https://www.bilibili.com/video/BV1HC4y1b7fV/</a>  </p><p>TSM以及WA基础教学：<br><a href="https://www.bilibili.com/video/BV1gT4y1L7EJ/" target="_blank" rel="noopener">https://www.bilibili.com/video/BV1gT4y1L7EJ/</a>  </p>]]></content>
       
       
       <categories>
@@ -29,11 +29,11 @@
     
     
     <entry>
-      <title>好用的加速器</title>
-      <link href="/2021/05/05/mian-fei-hao-yong-de-jia-su-qi/"/>
-      <url>/2021/05/05/mian-fei-hao-yong-de-jia-su-qi/</url>
+      <title>LOL换肤工具</title>
+      <link href="/2021/05/05/lian-meng-hao-yong-de-huan-fu-gong-ju-ni-dong-de/"/>
+      <url>/2021/05/05/lian-meng-hao-yong-de-huan-fu-gong-ju-ni-dong-de/</url>
       
-        <content type="html"><![CDATA[<h1 id="佛跳墙VPN"><a href="#佛跳墙VPN" class="headerlink" title="佛跳墙VPN"></a>佛跳墙VPN</h1><p>推荐一款自己在用的免费加速器，解决上github很慢，还能上youtobe等网站。支持PC端和移动端。</p><h2 id="官网截图"><a href="#官网截图" class="headerlink" title="官网截图"></a>官网截图</h2><img src="/2021/05/05/mian-fei-hao-yong-de-jia-su-qi/110.png" title="This is an 110.png image"><p>下载地址：<br><a href="https://www.fendouxiaqu.com/cn/" target="_blank" rel="noopener">https://www.fendouxiaqu.com/cn/</a></p>]]></content>
+        <content type="html"><![CDATA[<h1 id="League-Skin"><a href="#League-Skin" class="headerlink" title="League Skin"></a>League Skin</h1><h3 id="如何使用"><a href="#如何使用" class="headerlink" title="如何使用"></a>如何使用</h3><p><img src="https://img.05sun.com/up/2002/202002110900584812.jpg" alt>  </p><ul><li>步骤1：下载Mod Skin LoL。</li><li>步骤2：打开您的Game League of Legends。</li><li>步骤3：打开“ LoL皮肤程序”。选择您的冠军，然后单击活动您喜欢的皮肤。  </li></ul><p>14/10自定义皮肤和地图皮肤修复….-<br>程序自动关闭或无法打开：尝试从C：\ Program Files（x86）\ Digital Communications \ SAntivirus检查或卸载恶意软件SAntivirus *发生错误（avast，mcfee …）每次更新新补丁时，都会使用我的软件。几天后，该防病毒软件将允许皮肤变质，因此，如果您无法打开或无法正常工作，请不要担心太多，请暂时关闭防病毒软件。如何关闭防病毒软件:<a href="https://www.youtube.com/watch?v=GpvSP5Fca8Q" target="_blank" rel="noopener">https://www.youtube.com/watch?v=GpvSP5Fca8Q</a><br>如果您遇到问题，可以与我们联系以寻求帮助：<a href="facebook.com/LOLProSkin">facebook.com/LOLProSkin</a>  </p><h3 id="下载地址："><a href="#下载地址：" class="headerlink" title="下载地址："></a>下载地址：</h3><p><a href="http://leagueskin.net/p/download-mod-skin-2020-chn" target="_blank" rel="noopener">http://leagueskin.net/p/download-mod-skin-2020-chn</a>  </p><p>有一定几率封号，请谨慎使用。</p>]]></content>
       
       
       <categories>
@@ -71,6 +71,31 @@
         <tags>
             
             <tag> blog </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>好用的加速器</title>
+      <link href="/2021/05/05/mian-fei-hao-yong-de-jia-su-qi/"/>
+      <url>/2021/05/05/mian-fei-hao-yong-de-jia-su-qi/</url>
+      
+        <content type="html"><![CDATA[<h1 id="佛跳墙VPN"><a href="#佛跳墙VPN" class="headerlink" title="佛跳墙VPN"></a>佛跳墙VPN</h1><p>推荐一款自己在用的免费加速器，解决上github很慢，还能上youtobe等网站。支持PC端和移动端。</p><h2 id="官网截图"><a href="#官网截图" class="headerlink" title="官网截图"></a>官网截图</h2><img src="/2021/05/05/mian-fei-hao-yong-de-jia-su-qi/110.png" title="This is an 110.png image"><p>下载地址：<br><a href="https://www.fendouxiaqu.com/cn/" target="_blank" rel="noopener">https://www.fendouxiaqu.com/cn/</a></p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 工具 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 工具 </tag>
             
         </tags>
       
