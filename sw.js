@@ -6,7 +6,7 @@
     /** 控制信息存储地址（必须以`/`结尾） */
     const CTRL_PATH = 'https://id.v3/'
 
-    const ejectDomain = 'www.blog-wind-of-grace.cn'
+    const ejectDomain = 'www.blog-wind-of-grace.baby'
 
 
     /**
@@ -99,7 +99,8 @@
     }
 
     // noinspection JSFileReferences
-    let cacheRules = {
+    let skipRequest = request => request.url.startsWith('https://i0.hdslb.com')
+let cacheRules = {
 simple: {
 clean: true,
 search: false,
@@ -216,7 +217,7 @@ const fetchFile = (request, banCache, urls = null) => {
         // [blockRequest call]
         if (request.method !== 'GET' || !request.url.startsWith('http')) return
         // [modifyRequest call]
-        // [skipRequest call]
+        if (skipRequest(request)) return;
         let cacheKey = url.hostname + url.pathname + url.search
         let cache
         if (isMemoryQueue(request)) {
